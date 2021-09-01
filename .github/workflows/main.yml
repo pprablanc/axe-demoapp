@@ -23,5 +23,5 @@ jobs:
     - name: Push to docker hub :latest
       uses: actions-hub/docker@master
       with:
-       args: push pprablanc/docker-lab:latest
+       args: push pprablanc/docker-lab:1.0
  
